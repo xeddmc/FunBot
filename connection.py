@@ -2,10 +2,10 @@ import socket
 
 HOST="irc.freenode.net"
 PORT=6667
-NICK="Lucy"
+NICK="BOT-Lucy"
 IDENT="FunBot"
 REALNAME="FunBot"
-CHAN="#cephbot"
+CHAN="#fedoracoin"
 readbuffer=""
 
 def send_channel(s, text):
