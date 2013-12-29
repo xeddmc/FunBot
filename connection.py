@@ -2,10 +2,10 @@ import socket
 
 HOST="irc.freenode.net"
 PORT=6667
-NICK="BOT-Lucy"
+NICK="Lucy"
 IDENT="FunBot"
 REALNAME="FunBot"
-CHAN="#fedoracoin"
+CHAN="#cephbot"
 readbuffer=""
 
 def send_channel(s, text):
@@ -27,4 +27,4 @@ def get_connection():
 	return s
 
 def announce(s):
-	send_channel(s, "Hello! I am FunBot version 1.0, but you can call me Lucy!")#
+	send_channel(s, "Hello! I am FunBot version 1.0, but you can call me Lucy!")
